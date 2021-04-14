@@ -1,9 +1,4 @@
-# simple-web
-simple website
 
-link to site: https://katiepelch.github.io/simple-web/
-
-here is where you enter text
 
 <div class="center">
 

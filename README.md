@@ -1,5 +1,3 @@
-
-
 <div class="center">
 
 <div class="tableauPlaceholder" id="viz1618328517699" style="position: relative">

@@ -4,6 +4,7 @@ simple website
 link to site: https://katiepelch.github.io/simple-web/
 
 here is where you enter text
+
 <div class="center">
 
 <div class="tableauPlaceholder" id="viz1618328517699" style="position: relative">

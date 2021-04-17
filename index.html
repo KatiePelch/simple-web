@@ -26,6 +26,11 @@
       .tableauPlaceholder {
         width: 1366px;
       }
+      #tableauViz {
+  display: flex;
+  justify-content: center;
+  min-width: 1366px;
+}
     </style>
   </head>
   <div id="tableauViz">
@@ -35,15 +40,7 @@
     </div>
   <body>
     <body onload="javascript: TabScale.handleScaling('tableauViz');">
-      import TabScale from 'tabscale';
-      const tabScale = new TabScale.Scale(document.getElementById('tableauViz'))
-      let containerViz = document.getElementById('tableauViz'),
-    vizUrl = '<share link from Tableau>',
-    options = {
-        onFirstInteractive: (https://public.tableau.com/views/PFAS-ToxDatabase/HomePage?:language=en&:display_count=y&:origin=viz_share_link) => {
-            tabScale.initialize();
-        }
-    }
+      
 
 viz = new tableau.Viz(containerViz, vizUrl, options);
 
